@@ -1,0 +1,358 @@
+[
+    {
+        "id": "1",
+        "date": "2026-08-29T18:18:06.379558",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ipm_taux": 80,
+        "part_client": 90,
+        "part_empl": 360,
+        "remise": 0
+    },
+    {
+        "id": "2",
+        "date": "2026-08-29T18:50:22.199493",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "remise": 0
+    },
+    {
+        "id": "3",
+        "date": "2026-08-29T19:11:05.754127",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "total_final": 450,
+        "remise": 0,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "type": "vente_simple"
+    },
+    {
+        "id": "4",
+        "date": "2026-08-29T22:03:46.522538",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "total_final": 450,
+        "remise": 0,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "type": "vente_simple"
+    },
+    {
+        "id": "5",
+        "date": "2026-08-30T05:58:37.160531",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "remise": 0
+    },
+    {
+        "id": "6",
+        "date": "2026-08-30T05:59:15.575671",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "remise": 0
+    },
+    {
+        "id": "7",
+        "date": "2026-08-30T20:10:11.125579",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ipm_taux": 0,
+        "part_client": 450,
+        "part_empl": 0,
+        "remise": 0
+    },
+    {
+        "id": "8",
+        "date": "2026-08-30T21:07:17.060386",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "Cash",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 2
+            }
+        ],
+        "total": 900,
+        "ipm_taux": 0,
+        "part_client": 900,
+        "part_empl": 0,
+        "remise": 0
+    },
+    {
+        "id": 9,
+        "date_heure": "2026-08-31 16:18:22",
+        "reference": "V9",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450.0,
+        "paiement": "Cash",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 450.0
+    },
+    {
+        "id": 10,
+        "date_heure": "2026-08-31 16:24:15",
+        "reference": "V10",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Amoxicilline 500mg",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450.0,
+        "paiement": "Cash",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 450.0
+    },
+    {
+        "id": 11,
+        "date_heure": "2026-08-31 21:58:05",
+        "reference": "V11",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Espèces",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 12,
+        "date_heure": "2026-08-31 22:31:10",
+        "reference": "TEST - 456",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Orange Money",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 13,
+        "date_heure": "2026-08-31 22:32:14",
+        "reference": "V13",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Espèces",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 14,
+        "date_heure": "2026-08-31 22:50:34",
+        "reference": "V14",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 100.0,
+        "paiement": "Espèces",
+        "remise": 0.0,
+        "taux_ipm": 80.0,
+        "part_ipm": 400.0,
+        "part_client": 100.0
+    },
+    {
+        "id": 15,
+        "date_heure": "2026-08-31 22:58:21",
+        "reference": "V15",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Espèces",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 16,
+        "date_heure": "2026-08-31 22:59:22",
+        "reference": "TEST-789",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Orange Money",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 17,
+        "date_heure": "2026-09-03 21:30:15",
+        "reference": "124",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500.0,
+        "paiement": "Orange Money",
+        "remise": 0.0,
+        "taux_ipm": 0.0,
+        "part_ipm": 0.0,
+        "part_client": 500.0
+    },
+    {
+        "id": 18,
+        "date_heure": "2026-09-03 21:31:22",
+        "reference": "V18",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "panier": [
+            {
+                "nom": "Coca 33cl",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 100.0,
+        "paiement": "Espèces",
+        "remise": 0.0,
+        "taux_ipm": 80.0,
+        "part_ipm": 400.0,
+        "part_client": 100.0
+    }
+]

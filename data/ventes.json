@@ -1,0 +1,1337 @@
+[
+    {
+        "date": "08/08/2026 16:59",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 0,
+        "retour": true,
+        "qte_retournee": 1
+    },
+    {
+        "date": "08/08/2026 17:16",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "retour": true
+    },
+    {
+        "id": 2,
+        "date": "08/08/2026 17:20",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "retour": false
+    },
+    {
+        "id": 3,
+        "date": "08/08/2026 17:20",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "retour": false
+    },
+    {
+        "id": 4,
+        "date": "09/08/2026 06:34",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "qte_retournee": 0
+    },
+    {
+        "id": 5,
+        "date": "09/08/2026 06:55",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "qte_retournee": 0
+    },
+    {
+        "id": 6,
+        "date": "09/08/2026 06:58",
+        "produit": "riz",
+        "qte": 1,
+        "prix_u": 400,
+        "total": 400,
+        "qte_retournee": 0
+    },
+    {
+        "date": "2026-08-10 06:39:47.287715",
+        "client": "Client Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "nom": "riz",
+                "prix": 400,
+                "qte": 1
+            }
+        ],
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "date": "2026-08-10 07:14:47.170001",
+        "client": "Client Anonyme",
+        "panier": [
+            {
+                "id": 2,
+                "nom": "huile",
+                "prix": 500,
+                "qte": 1
+            }
+        ],
+        "total": 500,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "date": "2026-08-10 07:15:37.433912",
+        "client": "Client Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "nom": "riz",
+                "prix": 400,
+                "qte": 1
+            }
+        ],
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "date": "2026-08-10 07:17:34.370159",
+        "client": "Client Anonyme",
+        "panier": [
+            {
+                "id": 1,
+                "nom": "riz",
+                "prix": 400,
+                "qte": 1
+            }
+        ],
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786361111.389617",
+        "date": "2026-08-10 11:25:11.389617",
+        "client": "Client Anonyme",
+        "produit": "riz",
+        "qte": 1,
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786361725.888944",
+        "date": "2026-08-10 11:35:25.891941",
+        "client": "Client Anonyme",
+        "produit": "riz",
+        "qte": 1,
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786377040.824384",
+        "date": "2026-08-10 15:50:40.824384",
+        "client": "Client Anonyme",
+        "produit": "riz",
+        "qte": 1,
+        "total": 400,
+        "mode_paiement": "Orange Money",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786387370.41533",
+        "date": "2026-08-10 18:42:50.416332",
+        "client": "Client Anonyme",
+        "produit": "riz",
+        "qte": 1,
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786391976.329628",
+        "date": "2026-08-10 19:59:36.329628",
+        "client": "Client Anonyme",
+        "produit": "sucre",
+        "qte": 1,
+        "total": 600,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786445821.814344",
+        "date": "2026-08-11 10:57:01.814344",
+        "client": "Client Anonyme",
+        "produit": "riz",
+        "qte": 1,
+        "total": 400,
+        "mode_paiement": "Cash",
+        "caissier": "admin"
+    },
+    {
+        "id": "ce91312c-1d35-4f35-b6bf-470652f04b87",
+        "date": "2026-08-11T18:14:59.988752",
+        "client": "Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "qte": 1
+            }
+        ],
+        "total_ttc": 619.5,
+        "pec_taux": 70.0,
+        "part_employeur": 433.65,
+        "part_employe": 185.85000000000002,
+        "mode_paiement": null,
+        "montant_recu": 0.0
+    },
+    {
+        "id": "ebe4f130-2bfc-47a5-abcd-dd494d2d68c4",
+        "date": "2026-08-11T18:16:40.082769",
+        "client": "Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "qte": 1
+            }
+        ],
+        "total_ttc": 619.5,
+        "pec_taux": 0.0,
+        "part_employeur": 0.0,
+        "part_employe": 619.5,
+        "mode_paiement": null,
+        "montant_recu": 0.0
+    },
+    {
+        "id": "26712183-e7c3-4634-aba0-fdb6684a070d",
+        "date": "2026-08-11T18:19:41.175080",
+        "client": "Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "qte": 1
+            }
+        ],
+        "total_ttc": 619.5,
+        "pec_taux": 0.0,
+        "part_employeur": 0.0,
+        "part_employe": 619.5,
+        "mode_paiement": null,
+        "montant_recu": 0.0
+    },
+    {
+        "id": "c8972563-1fc1-45ff-9cc4-cc8996b9b48e",
+        "date": "2026-08-11T18:29:44.605102",
+        "client": "Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "qte": 1
+            }
+        ],
+        "totaux": {
+            "HT": 500.0,
+            "IPM": 25.0,
+            "TVA": 94.5,
+            "TTC": 619.5,
+            "Remise": 0.0
+        },
+        "prise_en_charge": {
+            "taux": 0.0,
+            "part_employeur": 0.0,
+            "part_employe": 619.5
+        },
+        "mode_paiement": "Espèces",
+        "montant_recu": 0.0
+    },
+    {
+        "date": "11/08/2026 18:52",
+        "caissier": "admin",
+        "client": "Anonyme",
+        "panier": [
+            {
+                "id": 0,
+                "qte": 1
+            }
+        ],
+        "totaux": {
+            "HT": 500.0,
+            "IPM": 25.0,
+            "TVA": 94.5,
+            "TTC": 619.5,
+            "Remise": 0.0
+        },
+        "prise_en_charge": {
+            "taux": 0.0,
+            "part_employeur": 0.0,
+            "part_employe": 619.5
+        },
+        "mode_paiement": "Espèces",
+        "montant_recu": 0.0,
+        "total": 619.5
+    },
+    {
+        "id": "1786474645.436306",
+        "date": "2026-08-11 18:57:25.436306",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786474862.241739",
+        "date": "2026-08-11 19:01:02.241739",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786476765.05784",
+        "date": "2026-08-11 19:32:45.057840",
+        "client": "Client Anonyme",
+        "produit": "Eau 1.5L",
+        "qte": 1,
+        "total": 300,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786478787.946103",
+        "date": "2026-08-11 20:06:27.946103",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "total": 500,
+        "caissier": "admin"
+    },
+    {
+        "id": "1786485026.120083",
+        "date": "2026-08-11 21:50:26.120083",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786485091.719624",
+        "date": "2026-08-11 21:51:31.719624",
+        "client": "Client Anonyme",
+        "produit": "Eau 1.5L",
+        "qte": 1,
+        "total": 300,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786487115.55048",
+        "date": "2026-08-11 22:25:15.551481",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 1,
+        "total": 800,
+        "mode_paiement": "Orange Money",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786515625.043954",
+        "date": "2026-08-12 06:20:25.043954",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 1,
+        "total": 800,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786518385.563569",
+        "date": "2026-08-12 07:06:25.563569",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786518411.667611",
+        "date": "2026-08-12 07:06:51.667611",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "total": 700,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786518458.402631",
+        "date": "2026-08-12 07:07:38.402631",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "total": 700,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786518962.674335",
+        "date": "2026-08-12 07:16:02.674335",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 1,
+        "prix": 800,
+        "total": 800,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786519170.420733",
+        "date": "2026-08-12 07:19:30.420733",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "prix": 700,
+        "total": 700,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786532277.850138",
+        "date": "2026-08-12 10:57:57.850138",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786557899.865",
+        "date": "2026-08-12 18:04:59.865000",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786557974.98642",
+        "date": "2026-08-12 18:06:14.986420",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 1,
+        "prix": 800,
+        "total": 800,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786603825.951314",
+        "date": "2026-08-13 06:50:25.951314",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786606412.105295",
+        "date": "2026-08-13 07:33:32.105295",
+        "client": "Client Anonyme",
+        "produit": "Eau 1.5L",
+        "qte": 1,
+        "prix_ht": 254,
+        "tva": 18,
+        "prix_ttc": 300,
+        "total": 300,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786623128.0966",
+        "date": "2026-08-13 12:12:08.096600",
+        "client": "Client Anonyme",
+        "produit": "farine",
+        "qte": 1,
+        "prix_ht": 338,
+        "tva": 18,
+        "prix_ttc": 400,
+        "total": 400,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786624775.51566",
+        "date": "2026-08-13 12:39:35.515660",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix_ht": 423,
+        "tva": 18,
+        "prix_ttc": 500,
+        "total": 500,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": 43,
+        "date": "2026-08-13 15:55:58",
+        "client": "Client Anonyme",
+        "mode": "Especes",
+        "articles": [
+            {
+                "id": 0,
+                "nom": "Coca 33cl",
+                "ttc": 500,
+                "ht": 423,
+                "qte": 1
+            }
+        ],
+        "total": 500,
+        "caissier": "admin"
+    },
+    {
+        "id": 44,
+        "date": "2026-08-13 16:13:39",
+        "client": "Client Anonyme",
+        "mode": "Especes",
+        "caissier": "admin",
+        "articles": [
+            {
+                "id": 0,
+                "nom": "Coca 33cl",
+                "ttc": 500,
+                "ht": 423,
+                "qte": 1
+            }
+        ],
+        "total_ht": 423,
+        "total_tva": 76,
+        "total_ttc": 500,
+        "remise_ipm": 0,
+        "ajt": 0,
+        "net_a_payer": 500,
+        "tva_rate": 18
+    },
+    {
+        "id": 45,
+        "date": "2026-08-13 18:26:52",
+        "client": "Client Anonyme",
+        "mode": "Orange Money",
+        "caissier": "admin",
+        "articles": [
+            {
+                "id": 0,
+                "nom": "Coca 33cl",
+                "ttc": 500,
+                "ht": 423,
+                "qte": 1
+            }
+        ],
+        "total_ht": 423,
+        "total_tva": 42,
+        "total_ttc": 500,
+        "remise_ipm": 100,
+        "ajt": 0,
+        "net_a_payer": 400,
+        "tva_rate": 10
+    },
+    {
+        "id": 46,
+        "date": "2026-08-13 18:28:48",
+        "client": "Client Anonyme",
+        "mode": "Especes",
+        "caissier": "admin",
+        "articles": [
+            {
+                "id": 0,
+                "nom": "Coca 33cl",
+                "ttc": 500,
+                "ht": 423,
+                "qte": 1
+            },
+            {
+                "id": 1,
+                "nom": "Biere 33cl",
+                "ttc": 800,
+                "ht": 677,
+                "qte": 1
+            }
+        ],
+        "total_ht": 1100,
+        "total_tva": 198,
+        "total_ttc": 1300,
+        "remise_ipm": 0,
+        "ajt": 0,
+        "net_a_payer": 1300,
+        "tva_rate": 18
+    },
+    {
+        "id": "1786662023.571848",
+        "date": "2026-08-13 23:00:23.571848",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786662057.406513",
+        "date": "2026-08-13 23:00:57.406513",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0,
+        "ipm_emp": 0.0,
+        "ipm_cli": 500.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786688201.807674",
+        "date": "2026-08-14 06:16:41.807674",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786690391.835744",
+        "date": "2026-08-14 06:53:11.835744",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 2,
+        "prix": 800,
+        "total": 1600,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 1280.0,
+        "ipm_cli": 320.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786690391.905698",
+        "date": "2026-08-14 06:53:11.905698",
+        "client": "Client Anonyme",
+        "produit": "Biere 33cl",
+        "qte": 2,
+        "prix": 800,
+        "total": 1600,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 1280.0,
+        "ipm_cli": 320.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786690741.519712",
+        "date": "2026-08-14 06:59:01.519712",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70,
+        "ipm_emp": 350.0,
+        "ipm_cli": 150.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786690843.430826",
+        "date": "2026-08-14 07:00:43.430826",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "prix": 700,
+        "total": 700,
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70,
+        "ipm_emp": 490.0,
+        "ipm_cli": 210.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786691060.771036",
+        "date": "2026-08-14 07:04:20.771036",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "prix": 700,
+        "total": 700,
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70,
+        "ipm_emp": 490.0,
+        "ipm_cli": 210.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786691187.488786",
+        "date": "2026-08-14 07:06:27.488786",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "prix": 700,
+        "total": 700,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 560.0,
+        "ipm_cli": 140.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786691338.271415",
+        "date": "2026-08-14 07:08:58.271415",
+        "client": "Client Anonyme",
+        "produit": "huile",
+        "qte": 1,
+        "prix": 700,
+        "total": 700,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 560.0,
+        "ipm_cli": 140.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786691870.514365",
+        "date": "2026-08-14 07:17:50.514365",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786692241.54222",
+        "date": "2026-08-14 07:24:01.542220",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 2,
+        "prix": 500,
+        "total": 1000,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 800.0,
+        "ipm_cli": 200.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786692324.543322",
+        "date": "2026-08-14 07:25:24.543322",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Orange Money",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786711495.520102",
+        "date": "2026-08-14 12:44:55.520102",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 500,
+                "total": 500
+            }
+        ],
+        "total": 500,
+        "mode_paiement": "Especes",
+        "ipm": "CNAM 80%|80"
+    },
+    {
+        "id": "1786711656.979181",
+        "date": "2026-08-14 12:47:36.979181",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786711778.326433",
+        "date": "2026-08-14 12:49:38.326433",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786711825.711332",
+        "date": "2026-08-14 12:50:25.711332",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786711945.770065",
+        "date": "2026-08-14 12:52:25.770065",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786712073.249397",
+        "date": "2026-08-14 12:54:33.249397",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Orange Money",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786718293.08737",
+        "date": "2026-08-14 14:38:13.087370",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786718305.131858",
+        "date": "2026-08-14 14:38:25.131858",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 500,
+        "total": 500,
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80,
+        "ipm_emp": 400.0,
+        "ipm_cli": 100.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786817563.108385",
+        "date": "2026-08-15 18:12:43.108385",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 1,
+        "prix": 520,
+        "total": 520,
+        "ipm_nom": "0.0",
+        "ipm_taux": 0,
+        "ipm_emp": 0.0,
+        "ipm_cli": 520.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786817585.944523",
+        "date": "2026-08-15 18:13:05.944523",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 2,
+        "prix": 520,
+        "total": 1040,
+        "ipm_nom": "70.0",
+        "ipm_taux": 0,
+        "ipm_emp": 0.0,
+        "ipm_cli": 1040.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "id": "1786817622.072785",
+        "date": "2026-08-15 18:13:42.072785",
+        "client": "Client Anonyme",
+        "produit": "Coca 33cl",
+        "qte": 2,
+        "prix": 520,
+        "total": 1040,
+        "ipm_nom": "80.0",
+        "ipm_taux": 0,
+        "ipm_emp": 0.0,
+        "ipm_cli": 1040.0,
+        "mode_paiement": "Especes",
+        "caissier": "admin"
+    },
+    {
+        "date": "2026-08-15T18:20:26.291863",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80.0,
+        "total_brut": 260.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 208,
+        "part_client": 52.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Eau Mineral 50cl",
+                "qte": 1,
+                "prix": 260.0
+            }
+        ]
+    },
+    {
+        "date": "2026-08-15T18:21:35.286858",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 416,
+        "part_client": 104.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "date": "2026-08-15T18:28:15.007752",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 416,
+        "part_client": 104.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 41704394,
+        "date": "2026-08-15T18:29:06.158955",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 364,
+        "part_client": 156.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 38975959,
+        "date": "2026-08-15T19:51:33.066531",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 520.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 60123672,
+        "date": "2026-08-15T19:51:49.680127",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 520.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 33845920,
+        "date": "2026-08-15T19:52:12.696035",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 520.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 17702234,
+        "date": "2026-08-15T19:54:31.056706",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 520.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 520.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 33249396,
+        "date": "2026-08-15T20:03:42.497610",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 793.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 793.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "para",
+                "qte": 1,
+                "prix": 273.0
+            },
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 520.0
+            }
+        ]
+    },
+    {
+        "numero": 18481911,
+        "date": "2026-08-15T21:23:07.530583",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70.0,
+        "total_brut": 130.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 91,
+        "part_client": 39.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "para",
+                "qte": 1,
+                "prix": 130.0
+            }
+        ]
+    },
+    {
+        "numero": 20515697,
+        "date": "2026-08-15T21:24:09.046774",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70.0,
+        "total_brut": 130.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 91,
+        "part_client": 39.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "para",
+                "qte": 1,
+                "prix": 130.0
+            }
+        ]
+    },
+    {
+        "numero": 83355204,
+        "date": "2026-08-20T12:01:19.086735",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "CNAM 80%",
+        "ipm_taux": 80.0,
+        "total_brut": 500.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 400,
+        "part_client": 100.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 500.0
+            }
+        ]
+    },
+    {
+        "numero": 60430715,
+        "date": "2026-08-20T14:46:12.000579",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 500.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 500.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 500.0
+            }
+        ]
+    },
+    {
+        "numero": 17277200,
+        "date": "2026-08-20T15:40:27.548322",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "Client Anonyme",
+        "ipm_taux": 0.0,
+        "total_brut": 500.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 0,
+        "part_client": 500.0,
+        "mode_paiement": "Especes",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 500.0
+            }
+        ]
+    },
+    {
+        "numero": 54711634,
+        "date": "2026-08-21T16:22:05.185245",
+        "caissier": "admin",
+        "client": "Client Anonyme",
+        "ipm_nom": "IPRES",
+        "ipm_taux": 70.0,
+        "total_brut": 500.0,
+        "remise": 0.0,
+        "tva": false,
+        "part_ipm": 350,
+        "part_client": 150.0,
+        "mode_paiement": "Orange Money",
+        "num_client": "",
+        "ref_trans": "",
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte": 1,
+                "prix": 500.0
+            }
+        ]
+    },
+    {
+        "id": "86",
+        "date": "2026-08-29T20:43:37.774259",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "OM",
+        "panier": [
+            {
+                "nom": "Test Produit",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ref_temp": "592c93dc",
+        "statut": "payee",
+        "date_paiement": "2026-08-29 20:46:11"
+    },
+    {
+        "id": "87",
+        "date": "2026-08-29T21:36:26.194923",
+        "client": "Client Anonyme",
+        "caissier": "admin",
+        "mode_paiement": "OM_EN_ATTENTE",
+        "panier": [
+            {
+                "nom": "Test Produit",
+                "prix": 450,
+                "qte": 1
+            }
+        ],
+        "total": 450,
+        "ref_temp": "970e84bd",
+        "statut": "en_attente_paiement"
+    }
+]

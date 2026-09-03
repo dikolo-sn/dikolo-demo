@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Vente Rapide</title></head>
+<body>
+<h1>Vente Rapide</h1>
+<table border="1">
+{% for p in produits %}
+<tr><td>{{p.nom}}</td><td>{{p.prix_vente}} FCFA</td></tr>
+{% endfor %}
+</table>
+<a href="/dashboard">Retour</a>
+</body>
+</html>

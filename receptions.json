@@ -1,0 +1,33 @@
+[
+    {
+        "n_bl": "bl 001",
+        "n_bc": "",
+        "fournisseur": ",uy",
+        "date": "2026-08-31",
+        "total_ht": 0,
+        "total_ttc": 0,
+        "lignes": [],
+        "user": "admin"
+    },
+    {
+        "n_bl": "bl 001",
+        "n_bc": "",
+        "fournisseur": ",uy",
+        "date": "2026-08-31",
+        "total_ht": 0.0,
+        "total_ttc": 0.0,
+        "lignes": [
+            {
+                "nom": "huile",
+                "qte_cdee": "1",
+                "qte": "1",
+                "pa": "0",
+                "pv": "0",
+                "ptotal": 0,
+                "dlc": "",
+                "tva": 18
+            }
+        ],
+        "user": "admin"
+    }
+]

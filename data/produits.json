@@ -1,0 +1,209 @@
+[
+    {
+        "nom": "Coca 33cl",
+        "prix": 800,
+        "stock": 1097.0,
+        "ipm": 5,
+        "tva": 18,
+        "prix_ht": 423,
+        "prix_achat_ht": 0,
+        "prix_achat": 400.0,
+        "stock_min": 10,
+        "dlc": "2026-12-31",
+        "prix_vente": 500.0,
+        "rayon_id": 1,
+        "etagere_id": 1
+    },
+    {
+        "nom": "Biere 33cl",
+        "prix": 800,
+        "stock": 22,
+        "ipm": 15,
+        "prix_achat": 0,
+        "tva": 18,
+        "prix_ht": 677,
+        "prix_achat_ht": 0
+    },
+    {
+        "nom": "Eau 1.5L",
+        "prix": 300,
+        "stock": 99,
+        "ipm": 0,
+        "prix_achat": 0,
+        "tva": 18,
+        "prix_ht": 254,
+        "prix_achat_ht": 0
+    },
+    {
+        "nom": "huile",
+        "prix": 700,
+        "stock": 5.0,
+        "stock_min": 5,
+        "dlc": "",
+        "prix_achat": 0,
+        "tva": 18,
+        "prix_ht": 593,
+        "prix_achat_ht": 0
+    },
+    {
+        "nom": "farine",
+        "prix": 400,
+        "prix_achat": 350.0,
+        "stock": 21,
+        "stock_min": 5,
+        "dlc": "2026-09-06",
+        "tva": 18,
+        "prix_ht": 338,
+        "prix_achat_ht": 296
+    },
+    {
+        "nom": "Fanta Orange 33cl",
+        "prix": 800,
+        "prix_achat": 400.0,
+        "stock": 181.0,
+        "stock_min": 10,
+        "dlc": "2026-12-31",
+        "prix_vente": 500.0
+    },
+    {
+        "nom": "Eau Mineral 50cl",
+        "prix": 400,
+        "prix_achat": 200.0,
+        "stock": 599.0,
+        "stock_min": 20,
+        "dlc": "2027-06-30",
+        "prix_vente": 300.0
+    },
+    {
+        "nom": "Lait Candia 1L",
+        "prix": 1600,
+        "prix_achat": 800.0,
+        "stock": 146.0,
+        "stock_min": 5,
+        "dlc": "2026-09-15",
+        "prix_vente": 1000.0
+    },
+    {
+        "nom": "bobo",
+        "prix": 4101,
+        "stock": 111,
+        "stock_min": 5,
+        "dlc": "",
+        "prix_achat": 450.0
+    },
+    {
+        "nom": "riz",
+        "stock": 4,
+        "prix_achat": 500.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "gerte",
+        "stock": 14,
+        "prix_achat": 200.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "riz",
+        "stock": 4,
+        "prix_achat": 500.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "banane",
+        "stock": 1,
+        "prix_achat": 210.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "orange",
+        "stock": 1,
+        "prix_achat": 300.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "para",
+        "stock": -1,
+        "prix_achat": 100.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "amox",
+        "stock": 1,
+        "prix_achat": 500.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "para",
+        "stock": 0,
+        "prix_achat": 210.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "doli",
+        "stock": 1,
+        "prix_achat": 600.0,
+        "stock_min": 5
+    },
+    {
+        "nom": "Huile Lesieur 1L",
+        "prix_achat": 1200.0,
+        "prix_vente": 1500.0,
+        "stock": 0,
+        "stock_min": 8,
+        "dlc": "2026-11-30"
+    },
+    {
+        "nom": "Pain de mie",
+        "prix_achat": 500.0,
+        "prix_vente": 650.0,
+        "stock": 0,
+        "stock_min": 5,
+        "dlc": "2026-08-25"
+    },
+    {
+        "nom": "jus",
+        "code_barre": "",
+        "stock": 1.0,
+        "prix_achat": 100.0,
+        "prix_vente": 200.0
+    },
+    {
+        "nom": "ECRAN 24''",
+        "code_barre": "123456789",
+        "prix_achat": 50000.0,
+        "prix_vente": 75000.0,
+        "stock": 10.0
+    },
+    {
+        "nom": "jus",
+        "prix_achat": 200.0,
+        "prix_vente": 250.0,
+        "stock": 10,
+        "stock_min": 5,
+        "dlc": "",
+        "rayon_id": 1,
+        "etagere_id": 1
+    },
+    {
+        "nom": "jus",
+        "prix_achat": 200.0,
+        "prix_vente": 250.0,
+        "stock": 10,
+        "stock_min": 5,
+        "dlc": "",
+        "rayon_id": 1,
+        "etagere_id": 1
+    },
+    {
+        "id": 1,
+        "nom": "Amoxicilline 500mg",
+        "prix_achat": 400.0,
+        "prix_vente": 500.0,
+        "stock": 10,
+        "stock_min": 5,
+        "dlc": "",
+        "rayon_id": null,
+        "etagere_id": null
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "date": "2026-08-13",
+        "fournisseur": "TEST COMPANY",
+        "num_bc": "",
+        "num_bl": "bl001",
+        "panier": "[{\"id\":0,\"nom\":\"Coca 33cl\",\"qte_cmd\":2,\"qte_rec\":2,\"lot\":\"\",\"dlc\":\"\",\"pa\":0,\"pv\":500}]",
+        "total": 0
+    },
+    {
+        "n_bl": "bl 002",
+        "n_bc": "",
+        "fournisseur": "pharma",
+        "date": "2026-08-18",
+        "lignes": [
+            {
+                "produit": "bissap",
+                "qte": 1,
+                "pa": 0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 0,
+        "total_ttc": 0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 003",
+        "n_bc": "",
+        "fournisseur": "pharma",
+        "date": "2026-08-18",
+        "lignes": [
+            {
+                "produit": "cafe",
+                "qte_cdee": 1,
+                "qte": 1,
+                "pa": 120.0,
+                "ptotal": 120.0,
+                "lot": "",
+                "dlc": ""
+            },
+            {
+                "produit": "cafe",
+                "qte_cdee": 1,
+                "qte": 1,
+                "pa": 1220.0,
+                "ptotal": 1220.0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 1340.0,
+        "total_ttc": 1340.0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 004",
+        "n_bc": "",
+        "fournisseur": "uy",
+        "date": "2026-08-18",
+        "lignes": [
+            {
+                "produit": "gerte",
+                "qte_cdee": 1,
+                "qte": 1,
+                "pa": 200.0,
+                "ptotal": 200.0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 200.0,
+        "total_ttc": 236,
+        "tva": true
+    },
+    {
+        "n_bl": "bl 003",
+        "n_bc": "",
+        "fournisseur": "pharma",
+        "date": "2026-08-18",
+        "lignes": [
+            {
+                "produit": "farine",
+                "qte_cdee": 1,
+                "qte": 1,
+                "pa": 350.0,
+                "ptotal": 350.0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 350.0,
+        "total_ttc": 350.0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 005",
+        "n_bc": null,
+        "fournisseur": "TEST COMPANY",
+        "date": "2026-08-19",
+        "tva_taux": 0,
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "qte_cdee": 50.0,
+                "qte": 50.0,
+                "pa": 400.0,
+                "pv": 520.0,
+                "dlc": "2026-12-31",
+                "tva": 0,
+                "ht": 20000.0,
+                "ttc": 20000.0
+            },
+            {
+                "nom": "Fanta Orange 33cl",
+                "qte_cdee": 30.0,
+                "qte": 30.0,
+                "pa": 400.0,
+                "pv": 520.0,
+                "dlc": "2026-12-31",
+                "tva": 0,
+                "ht": 12000.0,
+                "ttc": 12000.0
+            },
+            {
+                "nom": "Eau Mineral 50cl",
+                "qte_cdee": 100.0,
+                "qte": 100.0,
+                "pa": 200.0,
+                "pv": 260.0,
+                "dlc": "2027-06-30",
+                "tva": 0,
+                "ht": 20000.0,
+                "ttc": 20000.0
+            },
+            {
+                "nom": "Lait Candia 1L",
+                "qte_cdee": 24.0,
+                "qte": 24.0,
+                "pa": 800.0,
+                "pv": 1040.0,
+                "dlc": "2026-09-15",
+                "tva": 0,
+                "ht": 19200.0,
+                "ttc": 19200.0
+            }
+        ],
+        "total_ht": 71200,
+        "tva_montant": 0,
+        "total_ttc": 71200
+    },
+    {
+        "n_bl": "bl 001",
+        "n_bc": null,
+        "fournisseur": "uy",
+        "date": "2026-08-19",
+        "tva_taux": 0,
+        "lignes": [],
+        "total_ht": 0,
+        "tva_montant": 0,
+        "total_ttc": 0
+    },
+    {
+        "n_bl": "bl 006",
+        "n_bc": "",
+        "fournisseur": "uy",
+        "date": "2026-08-19",
+        "lignes": [
+            {
+                "produit": "bobo",
+                "qte_cdee": 100,
+                "qte": 100,
+                "pa": 450.0,
+                "ptotal": 45000.0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 45000.0,
+        "total_ttc": 45000.0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 005",
+        "n_bc": "",
+        "fournisseur": "TEST COMPANY",
+        "date": "2026-08-20",
+        "lignes": [
+            {
+                "produit": "riz",
+                "qte_cdee": 1,
+                "qte": 1,
+                "pa": 500.0,
+                "ptotal": 500.0,
+                "lot": "",
+                "dlc": ""
+            }
+        ],
+        "total_ht": 500.0,
+        "total_ttc": 500.0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 004",
+        "n_bc": "",
+        "fournisseur": "soda",
+        "date": "2026-08-20",
+        "lignes": [],
+        "total_ht": 0,
+        "total_ttc": 0,
+        "tva": false
+    },
+    {
+        "n_bl": "bl 005",
+        "n_bc": "",
+        "fournisseur": "uy",
+        "date": "2026-08-20",
+        "total_ht": 100.0,
+        "total_ttc": 118.0,
+        "lignes": [
+            {
+                "nom": "jus",
+                "qte_cdee": "1",
+                "qte": "1",
+                "pa": "100",
+                "pv": "200",
+                "ptotal": 118,
+                "dlc": "",
+                "tva": 18
+            }
+        ],
+        "user": "admin"
+    },
+    {
+        "n_bl": "",
+        "n_bc": "",
+        "fournisseur": "SONADIS",
+        "date": "2026-08-20",
+        "total_ht": 0.0,
+        "total_ttc": 0.0,
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Fanta Orange 33cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Eau Mineral 50cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Lait Candia 1L",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            }
+        ],
+        "user": "admin",
+        "source": "import_csv"
+    },
+    {
+        "n_bl": "",
+        "n_bc": "",
+        "fournisseur": "",
+        "date": "2026-08-20",
+        "total_ht": 0.0,
+        "total_ttc": 0.0,
+        "lignes": [
+            {
+                "nom": "Coca 33cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Fanta Orange 33cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Eau Mineral 50cl",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            },
+            {
+                "nom": "Lait Candia 1L",
+                "code_barre": "",
+                "qte_cdee": 0.0,
+                "qte": 0.0,
+                "pa": 0.0,
+                "pv": 0.0,
+                "ptotal": 0.0,
+                "dlc": "",
+                "tva": 18.0
+            }
+        ],
+        "user": "admin",
+        "source": "import_csv"
+    },
+    {
+        "n_bl": "BL2025001",
+        "n_bc": "BC123",
+        "fournisseur": "SONATEL",
+        "date": "2026-08-20",
+        "total_ht": 500000.0,
+        "total_ttc": 590000.0,
+        "lignes": [
+            {
+                "nom": "ECRAN 24''",
+                "code_barre": "123456789",
+                "qte_cdee": 10.0,
+                "qte": 10.0,
+                "pa": 50000.0,
+                "pv": 75000.0,
+                "ptotal": 590000.0,
+                "dlc": "010226",
+                "tva": 18.0
+            }
+        ],
+        "user": "admin",
+        "source": "import_csv"
+    }
+]

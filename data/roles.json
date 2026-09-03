@@ -1,0 +1,1 @@
+{"admin": ["voir_dashboard", "voir_produits", "voir_achat", "voir_vente", "voir_historique", "voir_export", "voir_users"], "commercial": ["voir_dashboard", "voir_produits", "voir_achat", "voir_vente", "voir_historique"], "caissier": ["voir_dashboard", "voir_vente", "voir_historique"], "magasinier": ["voir_dashboard", "voir_produits"]}
