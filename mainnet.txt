@@ -1,0 +1,71 @@
+import os
+import sys
+from datetime import datetime  # <- AJOUTE ÇA EN HAUT
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
+import uvicorn
+
+DATE_EXPIRATION = datetime(2026, 10, 3) # 30 jours de test <- METS LA ICI
+
+app = FastAPI()
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.dirname(os.path.abspath(__file__)) # <- REMETS ÇA
+    return os.path.join(base_path, relative_path)
+
+# Cherche le dossier static dans le dossier du fichier
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+static_dir = os.path.join(BASE_DIR, "static")
+
+if os.path.exists(static_dir):
+    app.mount("/static", StaticFiles(directory=static_dir), name="static")
+def load_template(name):
+    path = resource_path(f"templates/{name}")
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+@app.get("/")
+def dashboard():
+    return HTMLResponse(load_template("index.html"))
+def build_menu(active):
+    modules = [
+        ("Accueil","/dashboard"), 
+        ("Caisse","/caisse"), 
+        ("Etat Caisse","/etatcaisse"),
+        ("Facturation","/facturation"), 
+        ("Commandes/BLs","/commandes"), 
+        ("Produits","/produits"),
+        ("Vente","/vente"), 
+        ("Historique","/historique"), 
+        ("Alertes","/alertes"),
+        ("Statistiques","/stats"), 
+        ("Inventaire","/inventaire"), 
+        ("Exportations","/export"),
+        ("Utilisateurs","/users")
+    ]
+    
+    # Mettre le lien actif en bleu plus foncé
+    links = ""
+    for nom, url in modules:
+        if url == f"/{active}":
+            links += f"<a href='{url}' style='background:rgba(255,255,255,0.3)'>{nom}</a>"
+        else:
+            links += f"<a href='{url}'>{nom}</a>"
+    
+    return f"""
+    <header>
+        <h2>DiKoLo (Digante-Koungheul-Lour)</h2>
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+            <nav class='nav-links'>{links}</nav>
+            <a href='/logout' style='background:#ff4444;padding:8px 15px;border-radius:5px;color:white;text-decoration:none;font-weight:600'>Déconnexion</a>
+        </div>
+    </header>
+    """
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8001))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
