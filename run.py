@@ -83,7 +83,7 @@ class Paiement(BaseModel):
 def enregistrer_paiement(p: Paiement):
     conn = sqlite3.connect("gestDiKo.db")
     c = conn.cursor()
-    c.execute("INSERT INTO paiements (date_heure, client, montant, mode_paiement, reference, statut) VALUES (?,?,?,?,?)",
+    c.execute("INSERT INTO paiements (date_heure, client, montant, mode_paiement, reference, statut) VALUES (?,?,?,?,?,?)",
               (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "", p.montant, p.mode_paiement, p.reference, p.statut))
     conn.commit()
     conn.close()
@@ -100,6 +100,9 @@ def sauvegarder_json(fichier, data):
     os.makedirs(os.path.dirname(fichier), exist_ok=True)
     with open(fichier, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+# ICI COLLE LE RESTE DE TON CODE: CSS, ROUTES, ETC
+# ... tout ce que tu avais après
 
 def sauvegarder_vente_paye(ref, mode):
     ventes = charger_json(FICHIER_VENTES)
@@ -1366,8 +1369,8 @@ def enregistrer_paiement_vente(montant, methode, num_transaction):
                       statut TEXT DEFAULT 'paye', 
                       date TEXT)''')
         
-       c.execute("INSERT INTO paiements (date_heure, client, montant, mode_paiement, reference, statut) VALUES (?,?,?,?,?,?)",
-              (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "", p.montant, p.mode_paiement, p.reference, p.statut))
+        c.execute("INSERT INTO paiements (methode, montant, num_transaction, date) VALUES (?, ?, ?)",
+                  (methode, montant, num_transaction, datetime.now().isoformat()))
         conn.commit()
         print(f"DEBUG DB: ECRITURE REUSSIE !!!")
         conn.close()
