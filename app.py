@@ -1,3 +1,4 @@
+print("DIKOLO V1.2 FORCE REBUILD")
 from fastapi import FastAPI, Request, Form, Cookie
 from fastapi.responses import HTMLResponse, RedirectResponse
 from datetime import datetime, timedelta
