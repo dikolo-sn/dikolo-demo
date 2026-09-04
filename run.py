@@ -1366,8 +1366,8 @@ def enregistrer_paiement_vente(montant, methode, num_transaction):
                       statut TEXT DEFAULT 'paye', 
                       date TEXT)''')
         
-        c.execute("INSERT INTO paiements (methode, montant, num_transaction, date) VALUES (?, ?, ?)",
-                  (methode, montant, num_transaction, datetime.now().isoformat()))
+       c.execute("INSERT INTO paiements (date_heure, client, montant, mode_paiement, reference, statut) VALUES (?,?,?,?,?,?)",
+              (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "", p.montant, p.mode_paiement, p.reference, p.statut))
         conn.commit()
         print(f"DEBUG DB: ECRITURE REUSSIE !!!")
         conn.close()
